@@ -54,8 +54,8 @@ KOBO_FORM_LINK = "https://ee.kobotoolbox.org/x/EIygoDnx"
 # IMPORTANT :
 # Mets ces valeurs dans .streamlit/secrets.toml en production.
 KOBO_API_URL = st.secrets.get("KOBO_API_URL", "https://kf.kobotoolbox.org")
-KOBO_ASSET_UID = st.secrets.get("acEkyUMrrYvpxygUB7zRVu", "")
-KOBO_API_TOKEN = st.secrets.get("6f8e7140c1b5da02e799ab608c28da997ac8acba", "")
+KOBO_ASSET_UID = st.secrets.get("KOBO_ASSET_UID", "")
+KOBO_API_TOKEN = st.secrets.get("KOBO_API_TOKEN", "")
 
 
 # ============================================================
@@ -416,7 +416,7 @@ with st.sidebar:
         st.cache_data.clear()
         st.rerun()
 
-df_all = fetch_kobo_data(KOBO_API_URL, KOBO_ASSET_UID, KOBO_API_TOKEN)
+df_all = fetch_kobo_data(KOBO_API_URL, acEkyUMrrYvpxygUB7zRVu, 6f8e7140c1b5da02e799ab608c28da997ac8acba)
 
 
 # ============================================================
