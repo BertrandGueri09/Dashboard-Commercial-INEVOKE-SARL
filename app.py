@@ -416,7 +416,7 @@ with st.sidebar:
         st.cache_data.clear()
         st.rerun()
 
-df_all = fetch_kobo_data(KOBO_API_URL, acEkyUMrrYvpxygUB7zRVu, 6f8e7140c1b5da02e799ab608c28da997ac8acba)
+df_all = fetch_kobo_data(KOBO_API_URL, KOBO_ASSET_UID, KOBO_API_TOKEN)
 
 
 # ============================================================
