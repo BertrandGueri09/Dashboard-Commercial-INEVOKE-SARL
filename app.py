@@ -393,7 +393,7 @@ st.markdown(
 <div class="main-header">
     <div>{logo_html}</div>
     <div>
-        <h1>Dashboard Commercial — INEVOKE SARL</h1>
+        <h1>Dashboard Commercial</h1>
         <p>Suivi automatique des soumissions Kobo · Pipeline · Commerciaux · Carte Côte d’Ivoire</p>
     </div>
 </div>
