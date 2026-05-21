@@ -32,7 +32,7 @@ except Exception:
 # ============================================================
 
 st.set_page_config(
-    page_title="INEVOKE — Dashboard Commercial",
+    page_title="Dashboard Commercial",
     page_icon="☀️",
     layout="wide",
     initial_sidebar_state="expanded"
